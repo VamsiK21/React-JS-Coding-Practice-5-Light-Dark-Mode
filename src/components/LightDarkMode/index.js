@@ -19,12 +19,12 @@ class LightDarkMode extends Component {
     const buttonText = this.getButtonText()
     const {isLightMode} = this.state
     const modeClassName = isLightMode ? 'content-bg-white' : 'content-bg-dark'
-    const headingClassName = isLightMode ? 'heading-black' : 'heading-white'
+    
 
     return (
       <div className="bg-container">
         <div className={`content-container ${modeClassName}`}>
-          <h1 className={`heading ${headingClassName}`}>
+          <h1 className="heading">
             Click To Change Mode
           </h1>
           <button onClick={this.getMode} className="button" type="button">
