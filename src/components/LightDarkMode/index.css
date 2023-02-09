@@ -28,10 +28,13 @@ body {
 .content-bg-white {
   background-color: #ffffff;
   border: solid 2px #000000;
+  color: #000000;
 }
 
 .content-bg-dark {
   background-color: #000000;
+  color: #ffffff;
+  
 }
 
 .heading {
@@ -41,13 +44,7 @@ body {
   color: #ffffff;
 }
 
-.heading-black {
-  color: #000000;
-}
 
-.heading-white {
-  color: #ffffff;
-}
 
 @media screen and (min-width: 768px) {
   .heading {
